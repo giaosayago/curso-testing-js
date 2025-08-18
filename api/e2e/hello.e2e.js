@@ -1,6 +1,5 @@
 const request = require('supertest');
 const createApp = require('../src/app');
-const Test = require('supertest/lib/test');
 
 describe('E2E Test for Hello Endpoint', () => {
   let app = null;
